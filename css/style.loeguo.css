@@ -1,0 +1,536 @@
+@font-face {
+    font-family: titulos;
+    src: url("../font/Cinzel-VariableFont_wght.ttf");
+}
+
+
+@font-face {
+    font-family: textoextra;
+    src: url("../font/DancingScript-VariableFont_wght.ttf");
+}
+
+
+
+header{
+    background-image: url("../img/fondo.jpg");
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#redes{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+#img1{
+   background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+   background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url("../img/facebook-770688_960_720.webp");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+}
+#img3{
+    background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 30px;
+
+}
+#img4{
+    background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+    width: 70px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 30px;
+
+}
+
+body{
+    background-image: url("../img/Stable-Diffusion-4k-ai-art-lion-digital-art-illustration-2215638-wallhere.com.jpg");
+    background-size: cover;
+}
+
+#Menu{
+    display: block;
+}
+
+#botones{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+    font-family: titulos;
+}
+
+
+
+fieldset{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+[type ="password"]{
+    display: block;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 30%;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.685);
+    /*border-bottom: 1px solid blue;*/
+    margin-bottom: 5px;
+    height: 30px;
+    font-size: 20px;
+}
+
+
+[type ="email"]{
+    display: block;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.774);
+    /*border-bottom: 1px solid blue;*/
+    height: 30px;
+    font-size: 20px;
+}
+
+
+
+legend{
+    color: white;
+    font-family: primeraletra;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#boton{
+    height: 37px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    font-family: titulos;
+}
+
+
+form{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+    header{
+        background-image: url("../img/fondo.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+        background-color: blue;
+    }
+    
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 70px;
+        height: 70px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 30px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    body{
+        background-image: url("../img/Stable-Diffusion-4k-ai-art-lion-digital-art-illustration-2215638-wallhere.com.jpg");
+        background-size: cover;
+    }
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    #Menu{
+        display: block;
+    }   
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+input{
+    font-size: 17px;
+}
+
+[type ="password"]{
+    height: 30px;
+    font-size: 15px;
+}
+
+
+[type ="email"]{
+    height: 30px;
+    font-size: 15px;
+}
+
+
+
+legend{
+    font-size: 20px;
+
+}
+
+
+#boton{
+    font-size: 20px;
+}
+
+input{
+    font-family: titulos;
+    font-size: 20px;
+}
+
+
+form{
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+    header{
+        background-image: url("../img/body491.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+        background-color: blue;
+    }
+
+
+    body{
+        background-image: url("../img/header491.jpg");
+        background-size: cover;
+    }
+
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 70px;
+        height: 70px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 30px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    #Menu{
+        display: block;
+    }   
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+input{
+    font-size: 17px;
+}
+
+
+
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+    header{
+        background-image: url("../img/fondo.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+        background-color: blue;
+    }
+    
+
+
+    body{
+        background-image: url("../img/Stable-Diffusion-4k-ai-art-lion-digital-art-illustration-2215638-wallhere.com.jpg");
+        background-size: cover;
+    }
+
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 150px;
+        height: 150px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 50px;
+        height: 40px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    
+    #Menu{
+        display: block
+    }   
+     
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+    input{
+        font-size: 17px;
+    }
+
+    
+}
+
+@media screen and (min-width: 891px){
+    header{
+        background-image: url("../img/body491.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+        background-color: blue;
+    }
+
+
+    body{
+        background-image: url("../img/header491.jpg");
+        background-size: cover;
+    }
+
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 150px;
+        height: 150px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 50px;
+        height: 40px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    #Menu{
+        display: flex;
+        justify-content: center;
+    }   
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+    input{
+        font-size: 17px;
+    }
+}

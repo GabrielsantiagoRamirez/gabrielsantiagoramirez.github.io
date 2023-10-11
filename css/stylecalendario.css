@@ -1,0 +1,552 @@
+@font-face {
+    font-family: titulos;
+    src: url("../font/Cinzel-VariableFont_wght.ttf");
+}
+
+
+@font-face {
+    font-family: textoextra;
+    src: url("../font/DancingScript-VariableFont_wght.ttf");
+}
+
+
+
+header{
+    background-image: url("../img/fondo.jpg");
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#redes{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+#img1{
+   background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+   background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url("../img/facebook-770688_960_720.webp");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+}
+#img3{
+    background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 30px;
+
+}
+#img4{
+    background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+    width: 70px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 30px;
+
+}
+
+body{
+    background-image: url("../img/Stable-Diffusion-4k-ai-art-lion-digital-art-illustration-2215638-wallhere.com.jpg");
+    background-size: cover;
+}
+
+#Menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+
+#botones{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+    font-family: titulos;
+}
+
+
+input{
+    font-family: titulos;
+    margin-left: 30px ;
+}
+ #contenedor{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+ }
+
+#calendario{
+    background-image: url("../img/calendario.png");
+    background-size: cover;
+    height: 470px;
+}
+
+
+#cita{
+    margin-top: 20px ;
+    font-size: 40px;
+}
+
+
+input{
+    font-size: 20px;
+}
+
+
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+    header{
+        background-image: url("../img/fondo.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 70px;
+        height: 70px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 30px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    body{
+        background-image: url("../img/Stable-Diffusion-4k-ai-art-lion-digital-art-illustration-2215638-wallhere.com.jpg");
+        background-size: cover;
+    }
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    #Menu{
+        display: block;
+    }   
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+input{
+    font-size: 17px;
+}
+
+#contenedor{
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+ }
+
+ #cita{
+    font-size: 20px;
+}
+
+#calendario{
+    background-image: url("../img/calendario.png");
+    background-size: cover;
+    height: 300px;
+    width: 90%;
+}
+}
+
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+    header{
+        background-image: url("../img/body491.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+        background-color: blue;
+    }
+
+
+    body{
+        background-image: url("../img/header491.jpg");
+        background-size: cover;
+    }
+
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 70px;
+        height: 70px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 30px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    #Menu{
+        display: block;
+    }   
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+input{
+    font-size: 17px;
+}
+
+#contenedor{
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+ }
+
+ #cita{
+    font-size: 20px;
+}
+
+#calendario{
+    background-image: url("../img/calendario.png");
+    background-size: cover;
+    height: 300px;
+    width: 90%;
+}
+}
+
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+    header{
+        background-image: url("../img/fondo.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+        background-color: blue;
+    }
+    
+
+
+    body{
+        background-image: url("../img/Stable-Diffusion-4k-ai-art-lion-digital-art-illustration-2215638-wallhere.com.jpg");
+        background-size: cover;
+    }
+
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 70px;
+        height: 70px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 30px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    
+    #Menu{
+        display: flex;
+        justify-content: center;
+    }   
+     
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+input{
+    font-size: 17px;
+}
+
+#contenedor{
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+ }
+
+ #cita{
+    font-size: 20px;
+}
+
+#calendario{
+    background-image: url("../img/calendario.png");
+    background-size: cover;
+    height: 440px;
+    width: 90%;
+}
+}
+
+
+@media screen and (min-width: 891px){
+    header{
+        background-image: url("../img/body491.jpg");
+        height: 150px;
+        background-size: cover;
+        width: 100%;
+        background-color: blue;
+    }
+
+
+    body{
+        background-image: url("../img/header491.jpg");
+        background-size: cover;
+    }
+
+    #img1{
+        background-image: url("../img/Pasted-20231005-192622_preview_rev_1.png");
+        width: 70px;
+        height: 70px;
+    }
+
+    #img2{
+        background-image: url("../img/facebook-770688_960_720.webp");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    
+    }
+    #img3{
+        background-image: url("../img/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf_preview_rev_1.png");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    #img4{
+        background-image: url("../img/9f50d9b04f44fd8c1871d0991d1de7c1.jpg");
+        width: 30px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    #redes{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    #Menu{
+        display: flex;
+        justify-content: center;
+    }   
+    
+    
+    #botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    
+        width: 100%;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: titulos;
+    }
+    
+    
+input{
+    font-size: 17px;
+}
+
+#contenedor{
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+ }
+
+ #cita{
+    font-size: 20px;
+}
+
+#calendario{
+    background-image: url("../img/calendario.png");
+    background-size: cover;
+    height: 450px;
+    width: 90%;
+}
+}
